@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <h1 class="h1">Leaderboard</h1>
+    <!-- Main -->
+    <div class="main">
+        <!-- SCORES SEC -->
+        <Section class="ScoreSec">
+            <div class="recent">
+                <h2 class="h2">Recent Scores</h2>
+                <button class="recBtn">Refresh</button>
+            </div>
+            <div class="scores" id="scores">
+                <!-- Scores Here... -->
+            </div>
+        </Section>
+
+        <!-- Add NEW Book -->
+        <section class="AddSec">
+            <h2 class="h2">Add Your Score</h2>
+            <form class="form">
+                <input type="text" placeholder="Your Name" id="title" required>
+                <input type="text" placeholder="Your Score" id="author" required>
+                <button class="frmBtn"> Submit </button>
+            </form>
+        </section>
+    </div>
+    
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
