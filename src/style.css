@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Sriracha', cursive;
   margin: 0;
   padding: 0;
   font-size: 18px;
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  height: 100vh;
+  backdrop-filter: blur(15px);
 }
 
 a {
@@ -14,12 +20,19 @@ a {
   margin: 0;
   padding: 2vw 4vw;
   font-size: 4vw;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 0 8vw;
+  gap: 1vw;
 }
 
 .ScoreSec {
@@ -27,6 +40,11 @@ a {
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  background: #d3ca1d;
+  background: linear-gradient(to bottom right, #7d7d7d20, #84847c20);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.507);
 }
 
 .recent {
@@ -39,11 +57,20 @@ a {
   font-size: 3vw;
   margin: 0;
   padding: 0;
+  color: white;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
 }
 
 .recBtn {
   padding: 8px 20px;
   font-size: 18px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.521);
+  font-family: 'Sriracha', cursive;
+}
+
+.recBtn:hover {
+  cursor: pointer;
 }
 
 .AddSec {
@@ -51,6 +78,11 @@ a {
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  background: #d3ca1d;
+  background: linear-gradient(to bottom right, #7d7d7d20, #84847c20);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.507);
 }
 
 .form {
@@ -67,12 +99,22 @@ a {
   padding: 8px 20px;
   font-size: 18px;
   width: 20vw;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.503);
+  font-family: 'Sriracha', cursive;
 }
 
 .frmBtn {
   align-self: flex-end;
   padding: 8px 20px;
   font-size: 18px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.521);
+  font-family: 'Sriracha', cursive;
+}
+
+.frmBtn:hover {
+  cursor: pointer;
 }
 
 .scores {
@@ -80,22 +122,64 @@ a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  border: 2px solid black;
-  margin: 2vw 0;
+  margin: 2vw 2vw;
   width: 80%;
+  height: 47vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 4px 10px;
+  border: none;
 }
 
 .scores span {
   box-sizing: border-box;
   width: 100%;
-  border-bottom: 1px solid black;
   padding: 8px 20px;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.508);
+  background-color: white;
 }
 
 .scores span:nth-child(even) {
   background-color: #ddd;
 }
 
-.scores span:last-child {
-  border: none;
+@media only screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 4vw;
+    gap: 1vw;
+  }
+
+  .h1 {
+    font-size: clamp(3rem, 6vw, 10vw);
+  }
+
+  .h2 {
+    font-size: clamp(2rem, 4vw, 8vw);
+  }
+
+  .form {
+    width: 90%;
+  }
+
+  .form input {
+    width: 100%;
+  }
+
+  .frmBtn {
+    font-size: clamp(1rem, 2vw, 4vw);
+  }
+
+  .recent {
+    padding: 0 2vw;
+    gap: 1vw;
+    flex-direction: column;
+  }
+
+  .recBtn {
+    font-size: clamp(1rem, 2vw, 4vw);
+    white-space: nowrap;
+  }
 }
