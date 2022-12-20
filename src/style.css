@@ -69,6 +69,10 @@ a {
   font-family: 'Sriracha', cursive;
 }
 
+.recBtn:hover {
+  cursor: pointer;
+}
+
 .AddSec {
   display: flex;
   flex-direction: column;
@@ -99,7 +103,6 @@ a {
   border-radius: 20px;
   border: 1px solid rgba(0, 0, 0, 0.503);
   font-family: 'Sriracha', cursive;
-
 }
 
 .frmBtn {
@@ -110,6 +113,10 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.521);
   font-family: 'Sriracha', cursive;
   
+}
+
+.frmBtn:hover {
+  cursor: pointer;
 }
 
 .scores {
@@ -138,6 +145,46 @@ a {
 
 .scores span:nth-child(even) {
   background-color: #ddd;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 4vw;
+    gap: 1vw;
+  }
+
+  .h1 {
+    font-size: clamp(3rem, 6vw, 10vw);
+  }
+
+  .h2 {
+    font-size: clamp(2rem, 4vw, 8vw);
+  }
+
+  .form {
+    width: 90%;
+  }
+
+  .form input {
+    width: 100%;
+  }
+
+  .frmBtn {
+    font-size: clamp(1rem, 2vw, 4vw);
+  }
+
+  .recent {
+    padding: 0 2vw;
+    gap: 1vw;
+    flex-direction: column;
+  }
+
+  .recBtn {
+    font-size: clamp(1rem, 2vw, 4vw);
+    white-space: nowrap;
+  }
 }
 
 
