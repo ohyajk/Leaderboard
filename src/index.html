@@ -17,7 +17,7 @@
         <Section class="ScoreSec">
             <div class="recent">
                 <h2 class="h2">Recent Scores</h2>
-                <button class="recBtn">Refresh</button>
+                <button class="recBtn" id="refresh">Refresh</button>
             </div>
             <div class="scores" id="scores">
                 <!-- Scores Here... -->
@@ -27,10 +27,10 @@
         <!-- Add NEW Book -->
         <section class="AddSec">
             <h2 class="h2">Add Your Score</h2>
-            <form class="form">
-                <input type="text" placeholder="Your Name" id="title" required>
-                <input type="text" placeholder="Your Score" id="author" required>
-                <button class="frmBtn"> Submit </button>
+            <form id="form" class="form">
+                <input id="score" type="number" placeholder="Enter Score"  required>
+                <input id="player" type="text" placeholder="Enter Player"  required>
+                <button type="submit" class="frmBtn"> Submit </button>
             </form>
         </section>
     </div>
