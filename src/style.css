@@ -5,11 +5,97 @@ body {
   margin: 0;
   padding: 0;
   font-size: 18px;
+  overflow: hidden;
 }
 
-.bg {
+html {
+  background: url('./Assets/bg.svg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cloud1 {
+  background-image: url('./Assets/cloud1.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
   position: absolute;
-  height: 100vh;
+  height: 400px;
+  width: 500px;
+  top: 0;
+  left: 0;
+  animation: animcloud1 35s linear infinite;
+}
+
+@keyframes animcloud1 {
+  100% { left: 100%; }
+  100% { opacity: 0; }
+}
+
+.cloud2 {
+  background-image: url('./Assets/cloud2.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  top: 0;
+  right: 0;
+  animation: animcloud2 20s linear infinite;
+}
+
+@keyframes animcloud2 {
+  100% { right: 100%; }
+  100% { opacity: 0; }
+}
+
+.cloud3 {
+  background-image: url('./Assets/cloud3.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  bottom: 0;
+  right: 0;
+  animation: animcloud3 40s linear infinite;
+}
+
+@keyframes animcloud3 {
+  100% { right: 100%; }
+  100% { bottom: 70%; }
+}
+
+.cloud4 {
+  background-image: url('./Assets/cloud3.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  bottom: 0;
+  left: 0;
+  animation: animcloud4 60s linear infinite;
+}
+
+@keyframes animcloud4 {
+  100% { left: 100%; }
+  100% { bottom: 50%; }
+}
+
+.sun {
+  background-image: url('./Assets/sun.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  top: -50px;
+  left: 0;
+  animation: sun 60s linear infinite;
+  -webkit-filter: drop-shadow(22px 22px 28px rgba(233, 255, 36, 0.751));
+  z-index: -1;
 }
 
 a {
@@ -43,7 +129,7 @@ a {
   align-items: center;
   background: #d3ca1d;
   background: linear-gradient(to bottom right, #7d7d7d20, #84847c20);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(1px);
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.507);
 }
@@ -81,7 +167,7 @@ a {
   align-items: center;
   background: #d3ca1d;
   background: linear-gradient(to bottom right, #7d7d7d20, #84847c20);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(1px);
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.507);
 }
