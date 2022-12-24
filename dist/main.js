@@ -18,6 +18,7 @@
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Sriracha&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\r\\n  font-family: 'Sriracha', cursive;\\r\\n  margin: 0;\\r\\n  padding: 0;\\r\\n  font-size: 18px;\\r\\n  background-color: #fbab7e;\\r\\n  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);\\r\\n  height: 100vh;\\r\\n  backdrop-filter: blur(15px);\\r\\n}\\r\\n\\r\\na {\\r\\n  text-decoration: none;\\r\\n  color: inherit;\\r\\n}\\r\\n\\r\\n.h1 {\\r\\n  margin: 0;\\r\\n  padding: 2vw 4vw;\\r\\n  font-size: 4vw;\\r\\n  display: flex;\\r\\n  justify-content: center;\\r\\n  color: white;\\r\\n  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);\\r\\n  text-decoration: underline;\\r\\n  text-underline-offset: 10px;\\r\\n}\\r\\n\\r\\n.main {\\r\\n  display: grid;\\r\\n  grid-template-columns: 1fr 1fr;\\r\\n  padding: 0 8vw;\\r\\n  gap: 1vw;\\r\\n}\\r\\n\\r\\n.ScoreSec {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  justify-content: start;\\r\\n  align-items: center;\\r\\n  background: #d3ca1d;\\r\\n  background: linear-gradient(to bottom right, #7d7d7d20, #84847c20);\\r\\n  backdrop-filter: blur(5px);\\r\\n  border-radius: 20px;\\r\\n  border: 1px solid rgba(255, 255, 255, 0.507);\\r\\n}\\r\\n\\r\\n.recent {\\r\\n  display: flex;\\r\\n  align-items: center;\\r\\n  gap: 4vw;\\r\\n}\\r\\n\\r\\n.h2 {\\r\\n  font-size: 3vw;\\r\\n  margin: 0;\\r\\n  padding: 0;\\r\\n  color: white;\\r\\n  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);\\r\\n}\\r\\n\\r\\n.recBtn {\\r\\n  padding: 8px 20px;\\r\\n  font-size: 18px;\\r\\n  border-radius: 20px;\\r\\n  border: 1px solid rgba(255, 255, 255, 0.521);\\r\\n  font-family: 'Sriracha', cursive;\\r\\n}\\r\\n\\r\\n.recBtn:hover {\\r\\n  cursor: pointer;\\r\\n}\\r\\n\\r\\n.AddSec {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  justify-content: start;\\r\\n  align-items: center;\\r\\n  background: #d3ca1d;\\r\\n  background: linear-gradient(to bottom right, #7d7d7d20, #84847c20);\\r\\n  backdrop-filter: blur(5px);\\r\\n  border-radius: 20px;\\r\\n  border: 1px solid rgba(255, 255, 255, 0.507);\\r\\n}\\r\\n\\r\\n.form {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  justify-content: start;\\r\\n  align-items: center;\\r\\n  padding: 2vw 0;\\r\\n  gap: 2vw;\\r\\n}\\r\\n\\r\\n.form input {\\r\\n  box-sizing: border-box;\\r\\n  padding: 8px 20px;\\r\\n  font-size: 18px;\\r\\n  width: 20vw;\\r\\n  border-radius: 20px;\\r\\n  border: 1px solid rgba(0, 0, 0, 0.503);\\r\\n  font-family: 'Sriracha', cursive;\\r\\n}\\r\\n\\r\\n.frmBtn {\\r\\n  align-self: flex-end;\\r\\n  padding: 8px 20px;\\r\\n  font-size: 18px;\\r\\n  border-radius: 20px;\\r\\n  border: 1px solid rgba(255, 255, 255, 0.521);\\r\\n  font-family: 'Sriracha', cursive;\\r\\n}\\r\\n\\r\\n.frmBtn:hover {\\r\\n  cursor: pointer;\\r\\n}\\r\\n\\r\\n.scores {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  align-items: flex-start;\\r\\n  margin: 2vw 2vw;\\r\\n  width: 80%;\\r\\n  height: 47vh;\\r\\n  overflow-y: auto;\\r\\n  overflow-x: hidden;\\r\\n  padding: 4px 10px;\\r\\n  border: none;\\r\\n}\\r\\n\\r\\n.scores span {\\r\\n  box-sizing: border-box;\\r\\n  width: 100%;\\r\\n  padding: 8px 20px;\\r\\n  border-radius: 50px;\\r\\n  border: 1px solid rgba(0, 0, 0, 0.508);\\r\\n  background-color: white;\\r\\n}\\r\\n\\r\\n.scores span:nth-child(even) {\\r\\n  background-color: #ddd;\\r\\n}\\r\\n\\r\\n@media only screen and (max-width: 768px) {\\r\\n  .main {\\r\\n    display: flex;\\r\\n    flex-direction: column-reverse;\\r\\n    padding: 0 4vw;\\r\\n    gap: 1vw;\\r\\n  }\\r\\n\\r\\n  .h1 {\\r\\n    font-size: clamp(3rem, 6vw, 10vw);\\r\\n  }\\r\\n\\r\\n  .h2 {\\r\\n    font-size: clamp(2rem, 4vw, 8vw);\\r\\n  }\\r\\n\\r\\n  .form {\\r\\n    width: 90%;\\r\\n  }\\r\\n\\r\\n  .form input {\\r\\n    width: 100%;\\r\\n  }\\r\\n\\r\\n  .frmBtn {\\r\\n    font-size: clamp(1rem, 2vw, 4vw);\\r\\n  }\\r\\n\\r\\n  .recent {\\r\\n    padding: 0 2vw;\\r\\n    gap: 1vw;\\r\\n    flex-direction: column;\\r\\n  }\\r\\n\\r\\n  .recBtn {\\r\\n    font-size: clamp(1rem, 2vw, 4vw);\\r\\n    white-space: nowrap;\\r\\n  }\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://leaderboard/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
+
 /***/ }),
 
 /***/ "./node_modules/css-loader/dist/runtime/api.js":
@@ -27,6 +28,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://leaderboard/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n  url = String(url.__esModule ? url.default : url);\n\n  // If url is already wrapped in quotes, remove them\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n  if (options.hash) {\n    url += options.hash;\n  }\n\n  // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack://leaderboard/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -116,6 +127,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_declares_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/declares.js */ \"./src/modules/declares.js\");\n/* harmony import */ var _modules_getScores_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/getScores.js */ \"./src/modules/getScores.js\");\n\r\n\r\n\r\n\r\n(0,_modules_getScores_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\r\n\r\n_modules_declares_js__WEBPACK_IMPORTED_MODULE_1__.form.addEventListener('submit', async (e) => {\r\n  e.preventDefault();\r\n\r\n  await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/5zsvkfXFRCOMzxGmVtcx/scores/', {\r\n    method: 'POST',\r\n    body: JSON.stringify({\r\n      user: _modules_declares_js__WEBPACK_IMPORTED_MODULE_1__.player.value,\r\n      score: _modules_declares_js__WEBPACK_IMPORTED_MODULE_1__.score.value,\r\n    }),\r\n    headers: {\r\n      'Content-Type': 'application/json;charset=UTF-8',\r\n    },\r\n  });\r\n  window.location.reload();\r\n});\r\n\r\n_modules_declares_js__WEBPACK_IMPORTED_MODULE_1__.refresh.addEventListener('click', () => {\r\n  window.location.reload();\r\n});\r\n\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
 
 /***/ }),
@@ -126,7 +138,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"form\": () => (/* binding */ form),\n/* harmony export */   \"player\": () => (/* binding */ player),\n/* harmony export */   \"refresh\": () => (/* binding */ refresh),\n/* harmony export */   \"score\": () => (/* binding */ score),\n/* harmony export */   \"scoreDiv\": () => (/* binding */ scoreDiv)\n/* harmony export */ });\nconst scoreDiv = document.querySelector('#scores');\r\nconst refresh = document.querySelector('#refresh');\r\nconst form = document.querySelector('#form');\r\nconst score = document.querySelector('#score');\r\nconst player = document.querySelector('#player');\r\n\n\n//# sourceURL=webpack://leaderboard/./src/modules/declares.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"form\": () => (/* binding */ form),\n/* harmony export */   \"player\": () => (/* binding */ player),\n/* harmony export */   \"refresh\": () => (/* binding */ refresh),\n/* harmony export */   \"score\": () => (/* binding */ score),\n/* harmony export */   \"scoreDiv\": () => (/* binding */ scoreDiv)\n/* harmony export */ });\nconst scoreDiv = document.querySelector('#scores');\nconst refresh = document.querySelector('#refresh');\nconst form = document.querySelector('#form');\nconst score = document.querySelector('#score');\nconst player = document.querySelector('#player');\n\n\n//# sourceURL=webpack://leaderboard/./src/modules/declares.js?");
 
 /***/ }),
 
@@ -136,7 +148,50 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _declares_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./declares.js */ \"./src/modules/declares.js\");\n\n\nconst getScores = async () => {\n  const scores = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/6HRG9GY8pYokmWJqH497/scores/');\n  const res = await scores.json();\n  const strObj = JSON.stringify(res.result);\n  const parseObj = JSON.parse(strObj);\n\n  parseObj.forEach((obj) => {\n    _declares_js__WEBPACK_IMPORTED_MODULE_0__.scoreDiv.innerHTML += `<span>${obj.user}: ${obj.score}</span>`;\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getScores);\n\n//# sourceURL=webpack://leaderboard/./src/modules/getScores.js?");
+
+/***/ }),
+
+  !*** ./src/Assets/bg.svg ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d94c343cba023300ab4f.svg\";\n\n//# sourceURL=webpack://leaderboard/./src/Assets/bg.svg?");
+
+/***/ }),
+
+  !*** ./src/Assets/cloud1.svg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"2e360229b4ee5dfbb965.svg\";\n\n//# sourceURL=webpack://leaderboard/./src/Assets/cloud1.svg?");
+
+/***/ }),
+
+  !*** ./src/Assets/cloud2.svg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6f6ecd292559f5c6b0b1.svg\";\n\n//# sourceURL=webpack://leaderboard/./src/Assets/cloud2.svg?");
+
+/***/ }),
+
+  !*** ./src/Assets/cloud3.svg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c307e73504f5e451d2bb.svg\";\n\n//# sourceURL=webpack://leaderboard/./src/Assets/cloud3.svg?");
+
+/***/ }),
+
+  !*** ./src/Assets/sun.svg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"2d2332111c0a87f9a85b.svg\";\n\n//# sourceURL=webpack://leaderboard/./src/Assets/sun.svg?");
+
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _declares_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./declares.js */ \"./src/modules/declares.js\");\n\r\n\r\nconst getScores = async () => {\r\n  const scores = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/5zsvkfXFRCOMzxGmVtcx/scores/');\r\n  const res = await scores.json();\r\n  const strObj = JSON.stringify(res.result);\r\n  const parseObj = JSON.parse(strObj);\r\n\r\n  parseObj.forEach((obj) => {\r\n    _declares_js__WEBPACK_IMPORTED_MODULE_0__.scoreDiv.innerHTML += `<span>${obj.user}: ${obj.score}</span>`;\r\n  });\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getScores);\r\n\n\n//# sourceURL=webpack://leaderboard/./src/modules/getScores.js?");
+
 
 /***/ })
 
@@ -166,6 +221,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -191,6 +249,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -205,6 +275,52 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
